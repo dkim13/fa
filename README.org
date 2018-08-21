@@ -1,1 +1,196 @@
-* USMLE Step 1
+Innate immunity
+/Macrophages, Neutrophils, NK cells. pg. 99/
+**** notes
+     # org-capture - notes
+     # word wrap at column 80 (or visual line mode)
+     # line number mode 
+     # org-mode alist .txt files; .org files,
+     # mark-down mode (?)
+     # directory file explorer
+     # tab to indent/spaces (tsv)
+     # UTF-8
+     # Latex inline
+     # images inline
+
+* Barriers to infection
+  - skin/mucous membranes
+  - innate immune system
+  - adaptive immune system
+
+* Immune systems
+** Innate 
+   - fast-acting system
+   - non-specific reaction
+     - same cells, same reaction to many invaders
+   - no memory
+     - 2^nd infection same response as 1^st infection
+** Adaptive 
+   - slow-acting (days)
+   - highly specific
+     - unique cells activated to respond to a single invader
+   - memory
+     - 2^nd infection: faster response
+
+* Antigen presentation
+  - innate system can be activated by "free" antigen
+    - pathogenic molecules detected freely in blood, tissue
+  - adaptive system requires "antigen presentation"
+    - pathogens must be engulfed by cells, broken down
+    - pieces of protein transported to surface
+    - antigen "presented" to T cells for activation
+
+* Cytokines 
+  - cell signaling proteins
+  - often released by immune cells
+  - stimulates inflammatory response
+  - various subsets
+    - chemokines: attract immune cells (chemotaxis)
+    - interleukins: IL-1, IL-2, etc.
+    - tumor necrosis factor (TNF): can cause tumor cell death
+    - transforming growth factor (TGF)
+    - interferons: named for interfering w/ viral replication
+
+* Cluster of differentiation (CD) 
+  - cellular surface molecules
+    - CD3, CD4, CD8
+  - found on many immune cells (T cells, B cells)
+  - used to identify cell types
+  - some used as receptor/cell binding
+
+* Innate immune system
+  - phagocytes
+    - [[Macrophages][macrophages]] (hallmark cell)
+    - [[Neutrophil][neutrophils]]
+  - complement
+  - natural killer cells
+  - eosinophils
+  - mast cells and basophils 
+
+* Innate immunity
+** General principles
+   - recognize molecules that are "foreign"
+   - "pathogen-associated molecular patterns" (PAMPs)
+     - present on many microbes
+     - not present on human cells
+   - pattern recognition receptors (PRRs)
+   - key receptor class: "Toll-like receptors" (TLRs)
+     - macrophages, dendritic cells, mast cells
+     - recognize PAMPs /rarr secrete cytokines
+
+** Pattern recognition
+   - endotoxin (LPS)
+     - LPS binds LPS-binding protein (found in plasma)
+     - binds *CD14 on macrophages*
+     - triggers TLR4
+     - cytokine production: IL-1, IL-6, IL-8, TNF
+   - peptidoglycan cell wall
+     - NOD receptors (intracellular)
+     - nucleotide-binding oligomerization domain
+     - cytokine expression
+   - mannose (polysaccharide on bacteria/yeast)
+     - mannose-binding lectin (MBL) from liver
+     - activated lectin pathway of complement activation
+   - lipteichoic acid on Gram-positive bacteria
+   - double stranded RNA
+   - unmethylated DNA
+
+** Monocytes and macrophages
+   - [[Macrophages][macrophages]]: guardians of innate immunity
+   - produced in bone marrow as monocytes
+   - circulate in blood ~3 days
+   - enter tissues /rarr macrophages
+     - Kupffer cells (liver)
+     - micrglia (CNS)
+     - osteoclasts (bone)
+   - three key functions 
+     - [[Phagocytosis][phagocytosis]]
+     - cytokine production
+     - anitgen presentation
+
+*** Phagocytosis
+    - macrophages engulf pathogens into phagosome
+    - phagosome merges w/ lysosome
+    - lysosomes contain deadly enzymes
+    - death of bacteria, viruses
+    - reactive oxygen species (superoxides)
+      - produced by NADPH oxidase (respiratory burst)
+      - generate hydrogen peroxide H_{2}O_2 and O_{2}^/minus
+    - reactive nitrogen intermediates
+      - NO (nitric oxide) + O_{2}^/minus (superoxide) /rarr ONOO^/minus (peroxynitrite)
+    - enzymes:
+      - proteases
+      - nucleases
+      - lysozymes (hydrolyze peptidoglycans)
+    - lysosome enzyme secretion
+      - lung abscess
+    - some pathogens block this process
+      - tuberculosis modifies phagosome
+      - unable to fuse w/ lysosme
+      - proliferation inside macrophages
+      - protection from antibodies
+    - Chediak-Higashi syndrome
+      - immune deficiency syndrome
+      - failure of lysosomes to fuse w/ phagosomes
+      - recurrent bacterial infections
+
+*** Macrophages
+    - macrophages can exist in several "states"
+    - resting: debris removal
+    - activated ("primed"): more effective
+    - more activators (via surface TLRs):
+      - LPS from bacteria
+      - peptidoglycan
+      - bacterial DNA (no methylation)
+    - also, *IFN-/gamma* from T cells, NK cells
+    - attracted by C5a (complement)
+   
+**** Key surface receptors
+
+     | Surface molecule   | Signal |
+     |--------------------+--------|
+     | CD14               |        |
+     | F_c receptor       |        |
+     | C3b receptor       |        |
+     | _T cell molecules_ |        |
+     |  MHC               | CD4    |
+     |  B7                | CD28   |
+     |  CD40              | CD40L  |
+
+**** Cytokines
+     - key cytokines are [[IL-1 and TNA-/alpha][IL-1 and TNA-/alpha]]
+     - others: [[IL-6, IL-8, IL-12][IL-6, IL-8, IL-12]]
+
+***** IL-1 and TNA-/alpha
+      - both /uarr synthesis of endothelial adhesion molecules 
+	- allow neutrophils to enter inflamed tissue
+      - IL-1 
+	- "endogenous pyrogen" (causes fever)
+	- acts on hypothalamus
+      - TNF-/alpha
+	- can cause vascular leak, septic shock
+	- "Cachectin:" inhibits lipoprotein lipase in fat tissue
+	- reduces utilization of fatty acids /rarr cachexia
+	- kills tumors in animals ("tumor necrosis factor")
+	- can cause intravascular coagulation /rarr DIC
+***** IL-6, IL-8, IL-12
+      - IL-6
+	- fever
+	- stimulates acute phase protein production in liver (CRP)
+      - IL-8 
+	- attracts neutrophils
+      - IL-12
+	- promotes Th1 development (cell-mediated response)
+** Neutrophil
+   - derived from bone marrow
+   - granules stain pink w/ Wrightstain
+     - Eosinophils=red, Basophils=blue
+   - circulate ~5 days and die unless activated
+   - drawn from blood stream to sites of inflammation
+   - enter tissues: phagocytosis
+     - granules are lysosomes (Bactericidal enzymes)
+   - provide extra support to macrophages
+*** Blood stream exit
+    - rolling
+      - selectin ligand (SLIG) neutrophils (Sialyl-Lewis X)
+      - binds E-selectin or P-selectin endothelial cells 
+    - crawling (tight binding)
